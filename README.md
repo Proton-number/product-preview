@@ -33,6 +33,7 @@ Mobile View
 
 Desktop View
 
+![Screenshot (7)](https://user-images.githubusercontent.com/67767150/194084003-bb955d86-a2a3-44e4-a8d3-b9190650fc46.png)
 
 
 
