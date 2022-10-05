@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+.mobile-img{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#h4,#price{
+  font-family: 'Fraunces', serif;
+}
+
+#perfume,#words, #price2{
+  font-family: 'Montserrat', sans-serif;
+  opacity: 70%;
+}
+
+#price2{
+  text-decoration: line-through;
+  margin-top:18px;
+}
+
+.container{
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#btn:hover{
+background-color: hsl(166, 93%, 34%);
+}
