@@ -35,8 +35,6 @@
 
 #btn:hover{
 background-color: hsl(166, 93%, 34%);
-scale: 110%;
-transition: .5s;
 }
 
 .desktop-img{display: none;}
@@ -64,5 +62,11 @@ margin: 50px auto;
 #main{
  padding: 90px;
 }
+
+
+#btn:hover{
+  scale: 110%;
+  transition: .5s;
+  }
 
 }
