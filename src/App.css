@@ -35,4 +35,34 @@
 
 #btn:hover{
 background-color: hsl(166, 93%, 34%);
+scale: 120%;
+transition: .5s;
+}
+
+.desktop-img{display: none;}
+
+
+
+@media screen and (min-width:760px) {
+
+  .mobile-img{display: none;}
+
+.desktop-img{
+  display: block;
+  height: 600px;
+  width: 400px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.container{
+  display: flex;
+width: 67%;
+margin: 50px auto;
+}
+
+#main{
+ padding: 90px;
+}
+
 }

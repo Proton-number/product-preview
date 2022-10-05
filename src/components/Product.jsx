@@ -1,6 +1,7 @@
 import React from 'react'
 import {Typography, Box, Container, Button, createTheme, ThemeProvider, Stack} from '@mui/material'
 import mobile from '/src/images/image-product-mobile.jpg'
+import desktop from '/src/images/image-product-desktop.jpg'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const theme = createTheme({
@@ -18,9 +19,10 @@ function product() {
 
 <Box>
   <img src={mobile} alt="" className='mobile-img' />
+  <img src={desktop} alt="" className='desktop-img' />
 </Box>
 
-<Container sx={{padding:'20px'}}>
+<Container id='main' sx={{padding:'20px'}}>
 
   <Typography variant='h7' id='perfume' gutterBottom>P E R F U M E</Typography>
 
