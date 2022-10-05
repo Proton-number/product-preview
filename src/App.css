@@ -35,7 +35,7 @@
 
 #btn:hover{
 background-color: hsl(166, 93%, 34%);
-scale: 120%;
+scale: 110%;
 transition: .5s;
 }
 
