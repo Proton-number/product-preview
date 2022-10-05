@@ -1,5 +1,5 @@
 import React from 'react'
-import {Typography, Box, Container, Button, createTheme, ThemeProvider, Stack} from '@mui/material'
+import {Typography, Box, Container, Button, createTheme, ThemeProvider, Stack, Paper} from '@mui/material'
 import mobile from '/src/images/image-product-mobile.jpg'
 import desktop from '/src/images/image-product-desktop.jpg'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -15,7 +15,8 @@ const theme = createTheme({
 function product() {
   return (
   
-     <Box className='container' >
+    <>
+       <Paper className='container' elevation={4} >
 
 <Box>
   <img src={mobile} alt="" className='mobile-img' />
@@ -44,7 +45,8 @@ function product() {
 
 </Container>
 
-</Box>
+</Paper>
+    </>
   )
 }
 

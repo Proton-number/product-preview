@@ -7,8 +7,8 @@
 
 .mobile-img{
   width: 100%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 #h4,#price{
@@ -25,13 +25,7 @@
   margin-top:18px;
 }
 
-.container{
-  background-color: white;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
+
 
 #btn:hover{
 background-color: hsl(166, 93%, 34%);
@@ -49,8 +43,8 @@ background-color: hsl(166, 93%, 34%);
   display: block;
   height: 600px;
   width: 400px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .container{
